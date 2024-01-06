@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  margin: 2% 2%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  /* align-items: center; */
+}
+
+.dark-mode{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+.dark-mode-icon{
+  /* margin-top: 4px; */
+  display: flex;
+ 
+}
+
+/* search bar divs */
+.search-bar{
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0 15px;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  
+}
+.search-box{
+  border: 0px  white;
+  
+  height: 100%;
+  font-size: 1.25rem;
+  margin-left: 5px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.search-box:focus{
+  /* search box pe click krne pe border na aa jaye */
+  outline: none;  
+}
+
+.search-btn{
+  border-radius: 5px;
+  background-color: transparent;
+}
+.search-btn:hover{
+  cursor: pointer;
+}
